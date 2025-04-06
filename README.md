@@ -59,24 +59,13 @@
 
 ## 📂 Sample Data
 
-Over 30 real Penn State campus buildings loaded from JSON, including details like:
+Over 350 real Penn State campus buildings loaded from JSON, including details like:
 
 -   Name
 -   Coordinates
 -   Year constructed
 -   Photos (for some buildings)
 -   OPP building code
-
----
-
-## 📸 Screenshots (Optional)
-
-You can include screenshots here for:
-
--   Full map view
--   Route in progress
--   Building list modal
--   Detail view with photo
 
 ---
 
