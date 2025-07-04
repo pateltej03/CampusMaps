@@ -24,7 +24,7 @@
     Long-press on the map to drop your own custom markers.
 
 -   **Route Directions (MKRoute)**  
-    Select any two buildings and get walking directions with start/destination pins and step-based navigation.
+    Select any two buildings and get walking directions with route overlays, start/end pins, and step-by-step instructions.
 
 -   **Map Type Picker**  
     Switch between Standard, Hybrid, and Satellite map styles on the fly.
@@ -34,6 +34,18 @@
 
 -   **Building Detail Sheet**  
     Tap any building marker to see an image (if available), construction year, and favorite toggle.
+
+---
+
+## 🎥 Preview
+
+<img src="./Maps_1.gif" height="450" title="Map Modes and Marker Interaction">
+<img src="./Maps_2.gif" height="450" title="Favorites Filtering on Map">
+<img src="./Maps_3.gif" height="450" title="List View and Dynamic Filters">
+<img src="./Maps_4.gif" height="450" title="Detail View - Smart Handling of Data">
+<img src="./Maps_5.gif" height="450" title="Real-Time List Updates and Marker Consistency">
+<img src="./Maps_6.gif" height="450" title="App Relaunch – Persistence Check">
+<img src="./Maps_7.gif" height="450" title="Route Directions Between Selected Buildings">
 
 ---
 
@@ -49,17 +61,17 @@
 
 ## 🏗️ Architecture
 
--   `BuildingManager`: ObservableObject for handling buildings, filtering, persistence, and map state
--   `MainView`: Core UI for map + toolbar + filters
--   `MapViewRepresentable`: SwiftUI wrapper around MKMapView
--   `BuildingListView` & `RouteSelectionSheet`: Modal interfaces for selection
--   `BuildingDetailView`: Per-building info sheet
+-   `BuildingManager`: Handles buildings, filtering, persistence, and map state
+-   `MainView`: Core UI for map, toolbar, and filters
+-   `MapViewRepresentable`: SwiftUI wrapper for `MKMapView`
+-   `BuildingListView` & `RouteSelectionSheet`: Modal selection views
+-   `BuildingDetailView`: Shows per-building info
 
 ---
 
 ## 📂 Sample Data
 
-Over 350 real Penn State campus buildings loaded from JSON, including details like:
+Over 350 real Penn State campus buildings loaded from JSON, including:
 
 -   Name
 -   Coordinates
