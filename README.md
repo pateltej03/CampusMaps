@@ -39,13 +39,26 @@
 
 ## 🎥 Preview
 
-<img src="./Maps_1.gif" width="300" title="Map Modes and Marker Interaction">
-<img src="./Maps_2.gif" width="300" title="Favorites Filtering on Map">
-<img src="./Maps_3.gif" width="300" title="List View and Dynamic Filters">
-<img src="./Maps_4.gif" width="300" title="Detail View - Smart Handling of Data">
-<img src="./Maps_5.gif" width="300" title="Real-Time List Updates and Marker Consistency">
-<img src="./Maps_6.gif" width="300" title="App Relaunch – Persistence Check">
-<img src="./Maps_7.gif" width="300" title="Route Directions Between Selected Buildings">
+**Map Modes and Marker Interaction**  
+<img src="./Maps_1.gif" width="300">
+
+**Favorites Filtering on Map**  
+<img src="./Maps_2.gif" width="300">
+
+**List View and Dynamic Filters**  
+<img src="./Maps_3.gif" width="300">
+
+**Detail View – Smart Handling of Data**  
+<img src="./Maps_4.gif" width="300">
+
+**Real-Time List Updates and Marker Consistency**  
+<img src="./Maps_5.gif" width="300">
+
+**App Relaunch – Persistence Check**  
+<img src="./Maps_6.gif" width="300">
+
+**Route Directions Between Selected Buildings**  
+<img src="./Maps_7.gif" width="300">
 
 ---
 
